@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#tile {
+  background-color: white;
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+  float: left;
+  text-align: center;
+}
+
+#playerTile {
+  background-color: #feffa8;
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+  float: left;
+  text-align: center;
+}
+
+#tile:nth-child(2) {
+  background-color: #d3ff9e;
+}
+
+#tile:nth-child(26) {
+  background-color: #bc99cc;
+}
+
+
+#board {
+  width: 420px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#points {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
 }
